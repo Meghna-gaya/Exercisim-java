@@ -19,7 +19,7 @@ class TwelveDays
     String sing() {
         return verses(1, 12);
     }
-    private final static Map<Integer, String> twelveDaysMap = new HashMap<>() {{
+    private final static Map<Integer, String> twelveDaysMap = new HashMap<Integer, String>() {{
         put(1, "On the first day of Christmas my true love gave to me: " +
                 "a Partridge in a Pear Tree.\n");
         put(2, "On the second day of Christmas my true love gave to me: two Turtle Doves, " +
